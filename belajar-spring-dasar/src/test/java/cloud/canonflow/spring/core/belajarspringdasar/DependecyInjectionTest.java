@@ -31,7 +31,7 @@ public class DependecyInjectionTest {
 
     @Test
     void testDI() {
-        Foo foo = context.getBean(Foo.class);
+        Foo foo = context.getBean("fooSecond", Foo.class);
         Bar bar = context.getBean(Bar.class);
 
         FooBar foobar = context.getBean(FooBar.class);
