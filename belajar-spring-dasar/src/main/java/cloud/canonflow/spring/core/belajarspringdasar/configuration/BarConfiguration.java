@@ -1,4 +1,4 @@
-package cloud.canonflow.spring.core.belajarspringdasar;
+package cloud.canonflow.spring.core.belajarspringdasar.configuration;
 
 import cloud.canonflow.spring.core.belajarspringdasar.data.Bar;
 import org.springframework.context.annotation.Bean;
