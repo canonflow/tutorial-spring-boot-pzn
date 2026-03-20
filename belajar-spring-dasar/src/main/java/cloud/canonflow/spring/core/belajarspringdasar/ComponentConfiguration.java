@@ -5,6 +5,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan(basePackages = {
+    "cloud.canonflow.spring.core.belajarspringdasar.repository",
     "cloud.canonflow.spring.core.belajarspringdasar.service"
 })
 public class ComponentConfiguration {
