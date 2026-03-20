@@ -1,6 +1,7 @@
 package cloud.canonflow.spring.core.belajarspringdasar;
 
 import cloud.canonflow.spring.core.belajarspringdasar.data.Connection;
+import cloud.canonflow.spring.core.belajarspringdasar.data.Server;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -25,5 +26,10 @@ public class LifeCycleTest {
     @Test
     void testLifeCycleBean() {
         Connection connection = context.getBean(Connection.class);
+    }
+
+    @Test
+    void testServer() {
+        Server server = context.getBean(Server.class);
     }
 }
